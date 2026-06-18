@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<materialx version="1.38" fileprefix="./">
+  <standard_surface ypos="-1.879310" type="surfaceshader" xpos="6.159420" name="MetalPlates015A_2K_JPG_StandardSurface">
+    <input value="0" type="float" name="specular" />
+    <input value="1" type="float" name="coat" />
+    <input value="1, 1, 1" type="color3" name="coat_color" />
+    <input value="1" type="float" name="base" />
+    <input type="color3" name="base_color" nodename="MetalPlates015A_2K_JPG_Color" />
+    <input value="1" type="float" name="metalness" nodename="MetalPlates015A_2K_JPG_Metalness" />
+    <input type="vector3" name="normal" nodename="normalmap" />
+    <input type="vector3" name="coat_normal" nodename="normalmap" />
+    <input type="float" name="specular_roughness" nodename="MetalPlates015A_2K_JPG_Roughness" />
+    <input type="float" name="coat_roughness" nodename="MetalPlates015A_2K_JPG_Roughness" />
+  </standard_surface>
+  <surfacematerial ypos="0.000000" type="material" xpos="8.695652" name="MetalPlates015A_2K_JPG">
+    <input type="surfaceshader" name="surfaceshader" nodename="MetalPlates015A_2K_JPG_StandardSurface" />
+    <input type="displacementshader" name="displacementshader" nodename="displacement" />
+  </surfacematerial>
+  <tiledimage ypos="-3.103448" type="color3" xpos="3.623188" name="MetalPlates015A_2K_JPG_Color">
+    <input value="MetalPlates015A_2K-JPG_Color.jpg" type="filename" name="file" colorspace="srgb_texture" />
+    <input value="1.0, 1.0" type="vector2" name="uvtiling" />
+  </tiledimage>
+  <tiledimage ypos="5.163793" type="float" xpos="3.623188" name="MetalPlates015A_2K_JPG_Displacement">
+    <input value="MetalPlates015A_2K-JPG_Displacement.jpg" type="filename" name="file" />
+    <input value="1.0, 1.0" type="vector2" name="uvtiling" />
+  </tiledimage>
+  <displacement ypos="1.879310" type="displacementshader" xpos="6.159420" name="displacement">
+    <input type="float" name="displacement" nodename="MetalPlates015A_2K_JPG_Displacement" />
+    <input value="1.0" type="float" name="scale" />
+  </displacement>
+  <tiledimage ypos="-1.758621" type="float" xpos="3.623188" name="MetalPlates015A_2K_JPG_Metalness">
+    <input value="MetalPlates015A_2K-JPG_Metalness.jpg" type="filename" name="file" />
+    <input value="1.0, 1.0" type="vector2" name="uvtiling" />
+  </tiledimage>
+  <tiledimage ypos="0.879310" type="vector3" xpos="1.086957" name="MetalPlates015A_2K_JPG_NormalGL">
+    <input value="MetalPlates015A_2K-JPG_NormalGL.jpg" type="filename" name="file" />
+    <input value="1.0, 1.0" type="vector2" name="uvtiling" />
+  </tiledimage>
+  <normalmap ypos="3.586207" type="vector3" xpos="3.623188" name="normalmap">
+    <input type="vector3" name="in" nodename="MetalPlates015A_2K_JPG_NormalGL" />
+    <input value="1.0" type="float" name="scale" />
+  </normalmap>
+  <tiledimage ypos="-0.413793" type="float" xpos="3.623188" name="MetalPlates015A_2K_JPG_Roughness">
+    <input value="MetalPlates015A_2K-JPG_Roughness.jpg" type="filename" name="file" />
+    <input value="1.0, 1.0" type="vector2" name="uvtiling" />
+  </tiledimage>
+</materialx>

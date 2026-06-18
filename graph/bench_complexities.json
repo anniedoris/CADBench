@@ -1,0 +1,26 @@
+{
+    "extrude": {
+        "benchB_easy": 7,
+        "benchB_medium": 12,
+        "benchB_hard": 27,
+        "benchE_easy": 10,
+        "benchE_medium": 80,
+        "benchE_hard": 358
+    },
+    "extrude_labels": {
+        "benchB_easy": "Base-Low",
+        "benchB_medium": "Base-Medium",
+        "benchB_hard": "Base-Hard",
+        "benchE_easy": "Extrude-Low",
+        "benchE_medium": "Extrude-Medium",
+        "benchE_hard": "Extrude-Hard"
+    },
+    "all": {
+        "benchF_easy": 5,
+        "benchF_medium": 13,
+        "benchF_hard": 79,
+        "benchA_easy": 12,
+        "benchA_medium": 51,
+        "benchA_hard": 206
+    }
+}

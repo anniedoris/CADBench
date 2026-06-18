@@ -1,0 +1,7 @@
+matplotlib
+numpy==1.26
+Pillow
+polyscope
+pyrender
+trimesh
+jupyter

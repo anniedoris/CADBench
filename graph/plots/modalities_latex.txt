@@ -1,0 +1,20 @@
+CADFit & 0.859 & 0.808 & \deltacell{-0.051} & 0.981 & 0.998 & \deltacell{+0.017} \\
+CADEvolve & 0.707 & 0.130 & \deltacell{-0.577} & 0.967 & 0.991 & \deltacell{+0.024} \\
+Cadrille & 0.687 & 0.579 & \deltacell{-0.108} & 0.939 & 0.914 & \deltacell{-0.025} \\
+CAD-Recode & 0.673 & 0.511 & \deltacell{-0.162} & 0.912 & 0.868 & \deltacell{-0.044} \\
+
+Gemini 3.1 Pro & 0.382 & 0.388 & \deltacell{+0.006} & 0.374 & \deltacell{-0.008} \\
+Claude Opus 4.7 & 0.412 & 0.409 & \deltacell{-0.003} & 0.418 & \deltacell{+0.006} \\
+GPT-5.4 & 0.158 & 0.145 & \deltacell{-0.013} & 0.153 & \deltacell{-0.005} \\
+Kimi K2.6 & 0.224 & 0.196 & \deltacell{-0.028} & 0.131 & \deltacell{-0.093} \\
+CAD-Coder & 0.354 & 0.265 & \deltacell{-0.089} & 0.159 & \deltacell{-0.195} \\
+Qwen3.5 27B & 0.015 & 0.017 & \deltacell{+0.002} & 0.000 & \deltacell{-0.015} \\
+Qwen3.5 9B & 0.000 & 0.000 & \deltacell{+0.000} & 0.000 & \deltacell{+0.000} \\
+
+Gemini 3.1 Pro & 0.729 & 0.759 & \deltacell{+0.030} & 0.740 & \deltacell{+0.011} \\
+Claude Opus 4.7 & 0.798 & 0.821 & \deltacell{+0.023} & 0.797 & \deltacell{-0.001} \\
+GPT-5.4 & 0.513 & 0.529 & \deltacell{+0.016} & 0.499 & \deltacell{-0.014} \\
+Kimi K2.6 & 0.616 & 0.628 & \deltacell{+0.012} & 0.548 & \deltacell{-0.068} \\
+CAD-Coder & 0.946 & 0.948 & \deltacell{+0.002} & 0.903 & \deltacell{-0.043} \\
+Qwen3.5 27B & 0.335 & 0.353 & \deltacell{+0.018} & 0.271 & \deltacell{-0.064} \\
+Qwen3.5 9B & 0.099 & 0.091 & \deltacell{-0.008} & 0.034 & \deltacell{-0.065} \\

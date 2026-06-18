@@ -1,0 +1,13 @@
+pyvista
+trimesh
+torch
+Pillow
+numpy
+matplotlib
+seaborn
+tqdm
+joblib
+h5py
+plyfile
+pymeshlab
+scipy

@@ -1,0 +1,12 @@
+blendify
+bpy
+cairosvg
+fpsample
+k3d
+matplotlib
+numpy
+Pillow
+seaborn
+svgutils
+trimesh
+jupyter
