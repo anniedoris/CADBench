@@ -1,0 +1,56 @@
+{
+  "Mean": {
+    "Aligned IoU": 0.368087996379396,
+    "Naive IoU": 0.1878445451725957,
+    "Aligned Chamfer Distance": 0.1877906505258318,
+    "Naive Chamfer Distance": 0.46304751112709064,
+    "Aligned Surface IoU": 0.20399970384995064,
+    "Naive Surface IoU": 0.10827448173741362
+  },
+  "Median": {
+    "Aligned IoU": 0.3390492162999272,
+    "Naive IoU": 0.09205836782576728,
+    "Aligned Chamfer Distance": 0.15511819170216457,
+    "Naive Chamfer Distance": 0.4208675453282108,
+    "Aligned Surface IoU": 0.11105,
+    "Naive Surface IoU": 0.04535
+  },
+  "Std": {
+    "Aligned IoU": 0.2393529450979527,
+    "Naive IoU": 0.22059070938569722,
+    "Aligned Chamfer Distance": 0.1383613840261937,
+    "Naive Chamfer Distance": 0.3035892039798764,
+    "Aligned Surface IoU": 0.221176571911222,
+    "Naive Surface IoU": 0.16425724771919564
+  },
+  "Adjusted Mean": {
+    "Aligned IoU": 0.12429104677744274,
+    "Naive IoU": 0.06342884141994648,
+    "Aligned Surface IoU": 0.0688839,
+    "Naive Surface IoU": 0.03656068333333333
+  },
+  "Adjusted Median": {
+    "Aligned IoU": 0.0,
+    "Naive IoU": 0.0,
+    "Aligned Surface IoU": 0.0,
+    "Naive Surface IoU": 0.0
+  },
+  "Adjusted Std": {
+    "Aligned IoU": 0.2228152705335656,
+    "Naive IoU": 0.1559566994303155,
+    "Aligned Surface IoU": 0.1607035931068645,
+    "Naive Surface IoU": 0.10831575080153266
+  },
+  "VSR": 33.766666666666666,
+  "Timeout Rate": 0.8333333333333334,
+  "Code Metrics Mean": {
+    "Token Count": 574.1246666666667,
+    "Line Count": 85.39766666666667,
+    "Operation Count": 40.661
+  },
+  "Code Metrics Median": {
+    "Token Count": 512.0,
+    "Line Count": 79.0,
+    "Operation Count": 35.0
+  }
+}

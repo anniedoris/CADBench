@@ -1,0 +1,4 @@
+split,aligned_iou_adjusted_median,aligned_chamfer_distance_success_only_median,aligned_surface_iou_adjusted_median,vsr,token_count_success_only_median,total_operations_success_only_median
+easy,0.6860515568867885,0.06576725175526764,0.22845,0.957,55.0,5.0
+medium,0.5691718848441008,0.08738084119737384,0.16305,0.93,103.0,8.0
+hard,0.41970649838786434,0.11506365517241032,0.097725,0.859,172.0,14.0
