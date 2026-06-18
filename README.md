@@ -306,3 +306,8 @@ If you use CADBench in your research, please consider citing:
   year={2026}
 }
 ```
+
+# Benchmark Licensing
+CADBench contains benchmark data derived from multiple publicly available
+datasets. Each constituent dataset remains subject to its original license
+terms. See DATASET_LICENSE.md for details.
