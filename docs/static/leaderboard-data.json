@@ -1,0 +1,2863 @@
+{
+  "generated_at": "2026-06-18T00:25:27.070675+00:00",
+  "source_patterns": {
+    "mesh": "tested_models/{model_name}/mesh/results_summary.txt",
+    "image": "tested_models/{model_name}/singleview/results_summary.txt"
+  },
+  "metrics": {
+    "iou": {
+      "source_key": "average_aligned_iou_adjusted_median_across_all_benches",
+      "mesh_entries": [
+        {
+          "name": "CADFit",
+          "value": 0.859,
+          "color": "#08306b",
+          "noisy_value": 0.808,
+          "noisy_delta": -0.051
+        },
+        {
+          "name": "CAD-Recode",
+          "value": 0.673,
+          "color": "#9e8cc5",
+          "noisy_value": 0.511,
+          "noisy_delta": -0.162
+        },
+        {
+          "name": "CADEvolve",
+          "value": 0.707,
+          "color": "#74c6c6",
+          "noisy_value": 0.13,
+          "noisy_delta": -0.577
+        },
+        {
+          "name": "Cadrille",
+          "value": 0.687,
+          "color": "#6baed6",
+          "noisy_value": 0.579,
+          "noisy_delta": -0.108
+        }
+      ],
+      "image_entries": [
+        {
+          "name": "Claude Opus 4.7",
+          "value": 0.412,
+          "color": "#005824",
+          "photo_value": 0.409,
+          "photo_delta": -0.003,
+          "multi_value": 0.418,
+          "multi_delta": 0.006
+        },
+        {
+          "name": "Gemini 3.1 Pro",
+          "value": 0.382,
+          "color": "#2ca25f",
+          "photo_value": 0.388,
+          "photo_delta": 0.006,
+          "multi_value": 0.374,
+          "multi_delta": -0.008
+        },
+        {
+          "name": "GPT-5.4",
+          "value": 0.158,
+          "color": "#8c510a",
+          "photo_value": 0.145,
+          "photo_delta": -0.013,
+          "multi_value": 0.153,
+          "multi_delta": -0.005
+        },
+        {
+          "name": "Kimi K2.6",
+          "value": 0.224,
+          "color": "#c8d400",
+          "photo_value": 0.196,
+          "photo_delta": -0.028,
+          "multi_value": 0.131,
+          "multi_delta": -0.093
+        },
+        {
+          "name": "Qwen 3.59B",
+          "value": 0.0,
+          "color": "#65a30d",
+          "photo_value": 0.0,
+          "photo_delta": 0.0,
+          "multi_value": 0.0,
+          "multi_delta": 0.0
+        },
+        {
+          "name": "Qwen 3.527B",
+          "value": 0.015,
+          "color": "#f59e0b",
+          "photo_value": 0.017,
+          "photo_delta": 0.002,
+          "multi_value": 0.0,
+          "multi_delta": -0.015
+        },
+        {
+          "name": "CAD-Coder",
+          "value": 0.354,
+          "color": "#e08010",
+          "photo_value": 0.265,
+          "photo_delta": -0.089,
+          "multi_value": 0.159,
+          "multi_delta": -0.195
+        }
+      ]
+    },
+    "siou": {
+      "source_key": "average_aligned_surface_iou_adjusted_median_across_all_benches",
+      "mesh_entries": [
+        {
+          "name": "CADFit",
+          "value": 0.679,
+          "color": "#08306b"
+        },
+        {
+          "name": "CAD-Recode",
+          "value": 0.503,
+          "color": "#9e8cc5"
+        },
+        {
+          "name": "CADEvolve",
+          "value": 0.498,
+          "color": "#74c6c6"
+        },
+        {
+          "name": "Cadrille",
+          "value": 0.517,
+          "color": "#6baed6"
+        }
+      ],
+      "image_entries": [
+        {
+          "name": "Claude Opus 4.7",
+          "value": 0.108,
+          "color": "#005824"
+        },
+        {
+          "name": "Gemini 3.1 Pro",
+          "value": 0.106,
+          "color": "#2ca25f"
+        },
+        {
+          "name": "GPT-5.4",
+          "value": 0.029,
+          "color": "#8c510a"
+        },
+        {
+          "name": "Kimi K2.6",
+          "value": 0.042,
+          "color": "#c8d400"
+        },
+        {
+          "name": "Qwen 3.59B",
+          "value": 0.0,
+          "color": "#65a30d"
+        },
+        {
+          "name": "Qwen 3.527B",
+          "value": 0.002,
+          "color": "#f59e0b"
+        },
+        {
+          "name": "CAD-Coder",
+          "value": 0.115,
+          "color": "#e08010"
+        }
+      ]
+    },
+    "vsr": {
+      "source_key": "average_vsr_across_all_benches",
+      "mesh_entries": [
+        {
+          "name": "CADFit",
+          "value": 0.981,
+          "color": "#08306b"
+        },
+        {
+          "name": "CAD-Recode",
+          "value": 0.912,
+          "color": "#9e8cc5"
+        },
+        {
+          "name": "CADEvolve",
+          "value": 0.967,
+          "color": "#74c6c6"
+        },
+        {
+          "name": "Cadrille",
+          "value": 0.939,
+          "color": "#6baed6"
+        }
+      ],
+      "image_entries": [
+        {
+          "name": "Claude Opus 4.7",
+          "value": 0.798,
+          "color": "#005824"
+        },
+        {
+          "name": "Gemini 3.1 Pro",
+          "value": 0.729,
+          "color": "#2ca25f"
+        },
+        {
+          "name": "GPT-5.4",
+          "value": 0.513,
+          "color": "#8c510a"
+        },
+        {
+          "name": "Kimi K2.6",
+          "value": 0.616,
+          "color": "#c8d400"
+        },
+        {
+          "name": "Qwen 3.59B",
+          "value": 0.099,
+          "color": "#65a30d"
+        },
+        {
+          "name": "Qwen 3.527B",
+          "value": 0.335,
+          "color": "#f59e0b"
+        },
+        {
+          "name": "CAD-Coder",
+          "value": 0.946,
+          "color": "#e08010"
+        }
+      ]
+    },
+    "cd": {
+      "source_key": "average_aligned_chamfer_distance_success_only_median_across_all_benches",
+      "mesh_entries": [
+        {
+          "name": "CADFit",
+          "value": 0.038,
+          "color": "#08306b"
+        },
+        {
+          "name": "CAD-Recode",
+          "value": 0.056,
+          "color": "#9e8cc5"
+        },
+        {
+          "name": "CADEvolve",
+          "value": 0.062,
+          "color": "#74c6c6"
+        },
+        {
+          "name": "Cadrille",
+          "value": 0.056,
+          "color": "#6baed6"
+        }
+      ],
+      "image_entries": [
+        {
+          "name": "Claude Opus 4.7",
+          "value": 0.101,
+          "color": "#005824"
+        },
+        {
+          "name": "Gemini 3.1 Pro",
+          "value": 0.087,
+          "color": "#2ca25f"
+        },
+        {
+          "name": "GPT-5.4",
+          "value": 0.109,
+          "color": "#8c510a"
+        },
+        {
+          "name": "Kimi K2.6",
+          "value": 0.111,
+          "color": "#c8d400"
+        },
+        {
+          "name": "Qwen 3.59B",
+          "value": 0.195,
+          "color": "#65a30d"
+        },
+        {
+          "name": "Qwen 3.527B",
+          "value": 0.176,
+          "color": "#f59e0b"
+        },
+        {
+          "name": "CAD-Coder",
+          "value": 0.157,
+          "color": "#e08010"
+        }
+      ]
+    },
+    "token_count": {
+      "source_key": "average_token_count_success_only_median_across_all_benches",
+      "mesh_entries": [
+        {
+          "name": "CADFit",
+          "value": 552.0,
+          "color": "#08306b"
+        },
+        {
+          "name": "CAD-Recode",
+          "value": 236.0,
+          "color": "#9e8cc5"
+        },
+        {
+          "name": "CADEvolve",
+          "value": 284.0,
+          "color": "#74c6c6"
+        },
+        {
+          "name": "Cadrille",
+          "value": 220.0,
+          "color": "#6baed6"
+        }
+      ],
+      "image_entries": [
+        {
+          "name": "Claude Opus 4.7",
+          "value": 186.0,
+          "color": "#005824"
+        },
+        {
+          "name": "Gemini 3.1 Pro",
+          "value": 182.0,
+          "color": "#2ca25f"
+        },
+        {
+          "name": "GPT-5.4",
+          "value": 216.0,
+          "color": "#8c510a"
+        },
+        {
+          "name": "Kimi K2.6",
+          "value": 219.0,
+          "color": "#c8d400"
+        },
+        {
+          "name": "Qwen 3.59B",
+          "value": 141.0,
+          "color": "#65a30d"
+        },
+        {
+          "name": "Qwen 3.527B",
+          "value": 151.0,
+          "color": "#f59e0b"
+        },
+        {
+          "name": "CAD-Coder",
+          "value": 364.0,
+          "color": "#e08010"
+        }
+      ]
+    },
+    "op_count": {
+      "source_key": "average_total_operations_success_only_median_across_all_benches",
+      "mesh_entries": [
+        {
+          "name": "CADFit",
+          "value": 42.0,
+          "color": "#08306b"
+        },
+        {
+          "name": "CAD-Recode",
+          "value": 25.0,
+          "color": "#9e8cc5"
+        },
+        {
+          "name": "CADEvolve",
+          "value": 22.0,
+          "color": "#74c6c6"
+        },
+        {
+          "name": "Cadrille",
+          "value": 23.0,
+          "color": "#6baed6"
+        }
+      ],
+      "image_entries": [
+        {
+          "name": "Claude Opus 4.7",
+          "value": 14.0,
+          "color": "#005824"
+        },
+        {
+          "name": "Gemini 3.1 Pro",
+          "value": 13.0,
+          "color": "#2ca25f"
+        },
+        {
+          "name": "GPT-5.4",
+          "value": 15.0,
+          "color": "#8c510a"
+        },
+        {
+          "name": "Kimi K2.6",
+          "value": 18.0,
+          "color": "#c8d400"
+        },
+        {
+          "name": "Qwen 3.59B",
+          "value": 13.0,
+          "color": "#65a30d"
+        },
+        {
+          "name": "Qwen 3.527B",
+          "value": 12.0,
+          "color": "#f59e0b"
+        },
+        {
+          "name": "CAD-Coder",
+          "value": 43.0,
+          "color": "#e08010"
+        }
+      ]
+    }
+  },
+  "bench_slides": {
+    "0": {
+      "metrics": {
+        "iou": {
+          "source_key": "average_aligned_iou_adjusted_median_for_benchB",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.957,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.892,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.906,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.891,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.545,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.59,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.466,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.459,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.075,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.498,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "siou": {
+          "source_key": "average_aligned_surface_iou_adjusted_median_for_benchB",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.788,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.709,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.704,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.703,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.146,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.184,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.091,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.089,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.008,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.138,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "cd": {
+          "source_key": "average_aligned_chamfer_distance_success_only_median_for_benchB",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.029,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.033,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.036,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.034,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.096,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.082,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.113,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.115,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.199,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.185,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.127,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "vsr": {
+          "source_key": "average_vsr_for_benchB",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.989,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.954,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.991,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.962,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.919,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.918,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.816,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.848,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.19,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.491,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.979,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "token_count": {
+          "source_key": "average_token_count_success_only_median_for_benchB",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 226.0,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 140.0,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 190.0,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 135.0,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 107.0,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 101.0,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 131.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 120.0,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 115.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 113.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 215.0,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "op_count": {
+          "source_key": "average_total_operations_success_only_median_for_benchB",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 18.0,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 15.0,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 15.0,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 14.0,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 9.0,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 8.0,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 10.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 11.0,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 12.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 10.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 26.0,
+              "color": "#e08010"
+            }
+          ]
+        }
+      }
+    },
+    "1": {
+      "metrics": {
+        "iou": {
+          "source_key": "average_aligned_iou_adjusted_median_for_benchF",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.935,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.76,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.783,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.769,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.444,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.454,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.243,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.261,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.009,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.388,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "siou": {
+          "source_key": "average_aligned_surface_iou_adjusted_median_for_benchF",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.801,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.61,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.604,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.611,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.116,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.131,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.041,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.047,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.003,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.129,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "cd": {
+          "source_key": "average_aligned_chamfer_distance_success_only_median_for_benchF",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.029,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.042,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.046,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.042,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.095,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.082,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.109,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.108,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.184,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.178,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.144,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "vsr": {
+          "source_key": "average_vsr_for_benchF",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.991,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.92,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.97,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.942,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.828,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.788,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.596,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.656,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.102,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.355,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.957,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "token_count": {
+          "source_key": "average_token_count_success_only_median_for_benchF",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 422.0,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 204.0,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 247.0,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 192.0,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 154.0,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 154.0,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 195.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 184.0,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 121.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 145.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 283.0,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "op_count": {
+          "source_key": "average_total_operations_success_only_median_for_benchF",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 32.0,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 21.0,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 20.0,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 20.0,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 13.0,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 11.0,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 13.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 15.0,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 12.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 12.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 33.0,
+              "color": "#e08010"
+            }
+          ]
+        }
+      }
+    },
+    "2": {
+      "metrics": {
+        "iou": {
+          "source_key": "average_aligned_iou_adjusted_median_for_benchE",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.881,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.627,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.699,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.65,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.391,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.382,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.163,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.213,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.006,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.338,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "siou": {
+          "source_key": "average_aligned_surface_iou_adjusted_median_for_benchE",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.782,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.605,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.616,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.633,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.145,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.141,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.029,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.056,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.001,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.185,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "cd": {
+          "source_key": "average_aligned_chamfer_distance_success_only_median_for_benchE",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.03,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.043,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.048,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.044,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.068,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.063,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.077,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.081,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.151,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.144,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.121,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "vsr": {
+          "source_key": "average_vsr_for_benchE",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.968,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.89,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.979,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.93,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.76,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.719,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.525,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.651,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.091,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.281,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.93,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "token_count": {
+          "source_key": "average_token_count_success_only_median_for_benchE",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 678.0,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 250.0,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 375.0,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 231.0,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 215.0,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 206.0,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 247.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 263.0,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 159.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 175.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 453.0,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "op_count": {
+          "source_key": "average_total_operations_success_only_median_for_benchE",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 54.0,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 26.0,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 25.0,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 24.0,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 13.0,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 11.0,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 14.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 18.0,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 13.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 12.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 53.0,
+              "color": "#e08010"
+            }
+          ]
+        }
+      }
+    },
+    "3": {
+      "metrics": {
+        "iou": {
+          "source_key": "average_aligned_iou_adjusted_median_for_benchA",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.837,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.579,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.625,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.595,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.365,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.27,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.075,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.151,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.281,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "siou": {
+          "source_key": "average_aligned_surface_iou_adjusted_median_for_benchA",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.641,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.404,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.393,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.428,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.095,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.064,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.011,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.028,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.095,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "cd": {
+          "source_key": "average_aligned_chamfer_distance_success_only_median_for_benchA",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.038,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.062,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.063,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.062,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.104,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.088,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.111,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.114,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.195,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.176,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.174,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "vsr": {
+          "source_key": "average_vsr_for_benchA",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.986,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.903,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.934,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.929,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.763,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.643,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.419,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.565,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.055,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.239,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.935,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "token_count": {
+          "source_key": "average_token_count_success_only_median_for_benchA",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 572.0,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 306.0,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 343.0,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 287.0,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 236.0,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 224.0,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 261.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 279.0,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 182.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 187.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 410.0,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "op_count": {
+          "source_key": "average_total_operations_success_only_median_for_benchA",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 45.0,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 32.0,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 26.0,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 30.0,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 18.0,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 16.0,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 18.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 22.0,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 16.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 15.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 48.0,
+              "color": "#e08010"
+            }
+          ]
+        }
+      }
+    },
+    "4": {
+      "metrics": {
+        "iou": {
+          "source_key": "average_aligned_iou_adjusted_median_for_benchM",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.915,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.775,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.792,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.783,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.505,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.493,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.26,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.433,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "siou": {
+          "source_key": "average_aligned_surface_iou_adjusted_median_for_benchM",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.697,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.519,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.52,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.536,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.077,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.074,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.031,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.08,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "cd": {
+          "source_key": "average_aligned_chamfer_distance_success_only_median_for_benchM",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.034,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.046,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.051,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.047,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.095,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.081,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.086,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.092,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.209,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.154,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.14,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "vsr": {
+          "source_key": "average_vsr_for_benchM",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.994,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.931,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.963,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.963,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.814,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.732,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.447,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.572,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.104,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.368,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.977,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "token_count": {
+          "source_key": "average_token_count_success_only_median_for_benchM",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 417.0,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 178.0,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 227.0,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 158.0,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 133.0,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 147.0,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 163.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 121.0,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 99.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 119.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 244.0,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "op_count": {
+          "source_key": "average_total_operations_success_only_median_for_benchM",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 32.0,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 19.0,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 18.0,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 17.0,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 13.0,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 11.0,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 13.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 13.0,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 10.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 11.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 29.0,
+              "color": "#e08010"
+            }
+          ]
+        }
+      }
+    },
+    "5": {
+      "metrics": {
+        "iou": {
+          "source_key": "average_aligned_iou_adjusted_median_for_benchO",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.625,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.409,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.439,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.434,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.221,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.104,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.0,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.187,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "siou": {
+          "source_key": "average_aligned_surface_iou_adjusted_median_for_benchO",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.366,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.173,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.154,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.193,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.068,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.041,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.0,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.064,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "cd": {
+          "source_key": "average_aligned_chamfer_distance_success_only_median_for_benchO",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.066,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.109,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.129,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.104,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.146,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.126,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.155,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.158,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.232,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.22,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.237,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "vsr": {
+          "source_key": "average_vsr_for_benchO",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 0.956,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 0.875,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 0.965,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 0.907,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 0.703,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 0.572,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 0.275,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 0.402,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 0.053,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 0.276,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 0.899,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "token_count": {
+          "source_key": "average_token_count_success_only_median_for_benchO",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 999.0,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 337.0,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 321.0,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 318.0,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 269.0,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 260.0,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 299.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 347.0,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 172.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 170.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 580.0,
+              "color": "#e08010"
+            }
+          ]
+        },
+        "op_count": {
+          "source_key": "average_total_operations_success_only_median_for_benchO",
+          "mesh_entries": [
+            {
+              "name": "CADFit",
+              "value": 72.0,
+              "color": "#08306b"
+            },
+            {
+              "name": "CAD-Recode",
+              "value": 36.0,
+              "color": "#9e8cc5"
+            },
+            {
+              "name": "CADEvolve",
+              "value": 25.0,
+              "color": "#74c6c6"
+            },
+            {
+              "name": "Cadrille",
+              "value": 34.0,
+              "color": "#6baed6"
+            }
+          ],
+          "image_entries": [
+            {
+              "name": "Claude Opus 4.7",
+              "value": 21.0,
+              "color": "#005824"
+            },
+            {
+              "name": "Gemini 3.1 Pro",
+              "value": 18.0,
+              "color": "#2ca25f"
+            },
+            {
+              "name": "GPT-5.4",
+              "value": 22.0,
+              "color": "#8c510a"
+            },
+            {
+              "name": "Kimi K2.6",
+              "value": 28.0,
+              "color": "#c8d400"
+            },
+            {
+              "name": "Qwen 3.59B",
+              "value": 16.0,
+              "color": "#65a30d"
+            },
+            {
+              "name": "Qwen 3.527B",
+              "value": 15.0,
+              "color": "#f59e0b"
+            },
+            {
+              "name": "CAD-Coder",
+              "value": 67.0,
+              "color": "#e08010"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "complexity": {
+    "bench_complexities": {
+      "extrude": {
+        "benchB_easy": 7,
+        "benchB_medium": 12,
+        "benchB_hard": 27,
+        "benchE_easy": 10,
+        "benchE_medium": 80,
+        "benchE_hard": 358
+      },
+      "extrude_labels": {
+        "benchB_easy": "Base-Low",
+        "benchB_medium": "Base-Medium",
+        "benchB_hard": "Base-Hard",
+        "benchE_easy": "Extrude-Low",
+        "benchE_medium": "Extrude-Medium",
+        "benchE_hard": "Extrude-Hard"
+      },
+      "all": {
+        "benchF_easy": 5,
+        "benchF_medium": 13,
+        "benchF_hard": 79,
+        "benchA_easy": 12,
+        "benchA_medium": 51,
+        "benchA_hard": 206
+      }
+    },
+    "iou": {
+      "mesh": {
+        "cadfit": {
+          "B0_easy": 0.986,
+          "B0F_easy": 0.983,
+          "B1A_easy": 0.973,
+          "B1B_easy": 0.934,
+          "B0_medium": 0.966,
+          "B0F_medium": 0.955,
+          "B1A_medium": 0.835,
+          "B1B_medium": 0.789,
+          "B0_hard": 0.919,
+          "B0F_hard": 0.868,
+          "B1A_hard": 0.835,
+          "B1B_hard": 0.789
+        },
+        "cadrecode": {
+          "B0_easy": 0.963,
+          "B0F_easy": 0.917,
+          "B1A_easy": 0.917,
+          "B1B_easy": 0.837,
+          "B0_medium": 0.908,
+          "B0F_medium": 0.816,
+          "B1A_medium": 0.424,
+          "B1B_medium": 0.485,
+          "B0_hard": 0.804,
+          "B0F_hard": 0.546,
+          "B1A_hard": 0.54,
+          "B1B_hard": 0.415
+        },
+        "cadevolve": {
+          "B0_easy": 0.97,
+          "B0F_easy": 0.917,
+          "B1A_easy": 0.928,
+          "B1B_easy": 0.855,
+          "B0_medium": 0.924,
+          "B0F_medium": 0.827,
+          "B1A_medium": 0.548,
+          "B1B_medium": 0.541,
+          "B0_hard": 0.824,
+          "B0F_hard": 0.605,
+          "B1A_hard": 0.621,
+          "B1B_hard": 0.48
+        },
+        "cadrille_pc": {
+          "B0_easy": 0.961,
+          "B0F_easy": 0.911,
+          "B1A_easy": 0.911,
+          "B1B_easy": 0.84,
+          "B0_medium": 0.904,
+          "B0F_medium": 0.813,
+          "B1A_medium": 0.485,
+          "B1B_medium": 0.514,
+          "B0_hard": 0.808,
+          "B0F_hard": 0.584,
+          "B1A_hard": 0.554,
+          "B1B_hard": 0.43
+        }
+      },
+      "image": {
+        "claude4.7": {
+          "B0_easy": 0.642,
+          "B0F_easy": 0.582,
+          "B1A_easy": 0.57,
+          "B1B_easy": 0.524,
+          "B0_medium": 0.547,
+          "B0F_medium": 0.432,
+          "B1A_medium": 0.29,
+          "B1B_medium": 0.295,
+          "B0_hard": 0.444,
+          "B0F_hard": 0.318,
+          "B1A_hard": 0.312,
+          "B1B_hard": 0.275
+        },
+        "gemini3.1": {
+          "B0_easy": 0.705,
+          "B0F_easy": 0.637,
+          "B1A_easy": 0.612,
+          "B1B_easy": 0.554,
+          "B0_medium": 0.588,
+          "B0F_medium": 0.473,
+          "B1A_medium": 0.282,
+          "B1B_medium": 0.21,
+          "B0_hard": 0.476,
+          "B0F_hard": 0.252,
+          "B1A_hard": 0.251,
+          "B1B_hard": 0.045
+        },
+        "gpt5.4": {
+          "B0_easy": 0.618,
+          "B0F_easy": 0.493,
+          "B1A_easy": 0.488,
+          "B1B_easy": 0.226,
+          "B0_medium": 0.474,
+          "B0F_medium": 0.235,
+          "B1A_medium": 0.0,
+          "B1B_medium": 0.0,
+          "B0_hard": 0.307,
+          "B0F_hard": 0.0,
+          "B1A_hard": 0.0,
+          "B1B_hard": 0.0
+        },
+        "kimi_2.6": {
+          "B0_easy": 0.587,
+          "B0F_easy": 0.479,
+          "B1A_easy": 0.487,
+          "B1B_easy": 0.408,
+          "B0_medium": 0.444,
+          "B0F_medium": 0.272,
+          "B1A_medium": 0.11,
+          "B1B_medium": 0.046,
+          "B0_hard": 0.344,
+          "B0F_hard": 0.032,
+          "B1A_hard": 0.043,
+          "B1B_hard": 0.0
+        },
+        "qwen3.59b": {
+          "B0_easy": 0.0,
+          "B0F_easy": 0.0,
+          "B1A_easy": 0.0,
+          "B1B_easy": 0.0,
+          "B0_medium": 0.0,
+          "B0F_medium": 0.0,
+          "B1A_medium": 0.0,
+          "B1B_medium": 0.0,
+          "B0_hard": 0.0,
+          "B0F_hard": 0.0,
+          "B1A_hard": 0.0,
+          "B1B_hard": 0.0
+        },
+        "qwen3.527b": {
+          "B0_easy": 0.226,
+          "B0F_easy": 0.026,
+          "B1A_easy": 0.017,
+          "B1B_easy": 0.0,
+          "B0_medium": 0.0,
+          "B0F_medium": 0.0,
+          "B1A_medium": 0.0,
+          "B1B_medium": 0.0,
+          "B0_hard": 0.0,
+          "B0F_hard": 0.0,
+          "B1A_hard": 0.0,
+          "B1B_hard": 0.0
+        },
+        "cadcoder": {
+          "B0_easy": 0.664,
+          "B0F_easy": 0.563,
+          "B1A_easy": 0.545,
+          "B1B_easy": 0.429,
+          "B0_medium": 0.479,
+          "B0F_medium": 0.387,
+          "B1A_medium": 0.194,
+          "B1B_medium": 0.216,
+          "B0_hard": 0.351,
+          "B0F_hard": 0.215,
+          "B1A_hard": 0.274,
+          "B1B_hard": 0.198
+        }
+      }
+    }
+  }
+}

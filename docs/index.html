@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- Primary Meta Tags -->
+  <!-- TODO: Replace with your paper title and author names -->
+  <meta name="title" content="CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation">
+  <!-- TODO: Write a compelling 150-160 character description of your research -->
+  <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Add 5-10 relevant keywords for your research area -->
+  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
+  <!-- TODO: List all authors -->
+  <meta name="author" content="Anna C. Doris, Jacob Thomas Sony, Ghadi Nehme, Era Syla, Amin Heyrani Nobari, Faez Ahmed">
+  <meta name="robots" content="index, follow">
+  <meta name="language" content="English">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="article">
+  <!-- TODO: Replace with your institution or lab name -->
+  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
+  <!-- TODO: Same as paper title above -->
+  <meta property="og:title" content="CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation">
+  <!-- TODO: Same as description above -->
+  <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Replace with your actual website URL -->
+  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <!-- TODO: Create a 1200x630px preview image and update path -->
+  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation - Research Preview">
+  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
+  <meta property="article:author" content="Anna C. Doris, Jacob Thomas Sony, Ghadi Nehme, Era Syla, Amin Heyrani Nobari, Faez Ahmed">
+  <meta property="article:section" content="Research">
+  <meta property="article:tag" content="KEYWORD1">
+  <meta property="article:tag" content="KEYWORD2">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- TODO: Replace with your lab/institution Twitter handle -->
+  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
+  <!-- TODO: Replace with first author's Twitter handle -->
+  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
+  <!-- TODO: Same as paper title above -->
+  <meta name="twitter:title" content="CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation">
+  <!-- TODO: Same as description above -->
+  <meta name="twitter:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
+  <!-- TODO: Same as social preview image above -->
+  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta name="twitter:image:alt" content="CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation - Research Preview">
+
+  <!-- Academic/Research Specific -->
+  <meta name="citation_title" content="CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation">
+  <meta name="citation_author" content="Doris, Anna C.">
+  <meta name="citation_author" content="Thomas Sony, Jacob">
+  <meta name="citation_author" content="Nehme, Ghadi">
+  <meta name="citation_author" content="Syla, Era">
+  <meta name="citation_author" content="Heyrani Nobari, Amin">
+  <meta name="citation_author" content="Ahmed, Faez">
+  <meta name="citation_publication_date" content="2024">
+  <meta name="citation_conference_title" content="CONFERENCE_NAME">
+  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
+  
+  <!-- Additional SEO -->
+  <meta name="theme-color" content="#2563eb">
+  <meta name="msapplication-TileColor" content="#2563eb">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://ajax.googleapis.com">
+  <link rel="preconnect" href="https://documentcloud.adobe.com">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+
+
+  <!-- TODO: Replace with your paper title and authors -->
+  <title>CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation</title>
+  
+  <!-- Favicon and App Icons -->
+  
+  <!-- Critical CSS - Load synchronously -->
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/index.css?v=20260601j">
+  
+  <!-- Non-critical CSS - Load asynchronously -->
+  <link rel="preload" href="static/css/bulma-carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/bulma-slider.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="static/css/fontawesome.all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  
+  <!-- Fallback for browsers that don't support preload -->
+  <noscript>
+    <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+    <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+    <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  </noscript>
+  
+  <!-- Fonts - Optimized loading -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Defer non-critical JavaScript -->
+  <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script defer src="static/js/bulma-carousel.min.js"></script>
+  <script defer src="static/js/bulma-slider.min.js"></script>
+  <script defer src="static/js/index.js?v=20260601ae"></script>
+  
+  <!-- Structured Data for Academic Papers -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ScholarlyArticle",
+    "headline": "CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation",
+    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "author": [
+      {
+        "@type": "Person",
+        "name": "Anna C. Doris",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Massachusetts Institute of Technology"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Jacob Thomas Sony",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Massachusetts Institute of Technology"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Ghadi Nehme",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Massachusetts Institute of Technology"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Era Syla",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Massachusetts Institute of Technology"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Amin Heyrani Nobari",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Massachusetts Institute of Technology"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Faez Ahmed",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Massachusetts Institute of Technology"
+        }
+      }
+    ],
+    "datePublished": "2024-01-01",
+    "publisher": {
+      "@type": "Organization",
+      "name": "CONFERENCE_OR_JOURNAL_NAME"
+    },
+    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
+    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
+    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
+    "abstract": "FULL_ABSTRACT_TEXT_HERE",
+    "citation": "BIBTEX_CITATION_HERE",
+    "isAccessibleForFree": true,
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "mainEntity": {
+      "@type": "WebPage",
+      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+    },
+    "about": [
+      {
+        "@type": "Thing",
+        "name": "RESEARCH_AREA_1"
+      },
+      {
+        "@type": "Thing", 
+        "name": "RESEARCH_AREA_2"
+      }
+    ]
+  }
+  </script>
+  
+  <!-- Website/Organization Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "INSTITUTION_OR_LAB_NAME",
+    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
+    "logo": "https://YOUR_DOMAIN.com/static/images/favicon.ico",
+    "sameAs": [
+      "https://twitter.com/YOUR_TWITTER_HANDLE",
+      "https://github.com/YOUR_GITHUB_USERNAME"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-to-top" onclick="scrollToTop()" title="Scroll to top" aria-label="Scroll to top">
+    <i class="fas fa-chevron-up"></i>
+  </button>
+
+  <!-- More Works Dropdown -->
+  <div class="more-works-container">
+    <button class="more-works-btn" onclick="toggleMoreWorks()" title="View More Works from Our Lab">
+      <i class="fas fa-flask"></i>
+      More Works
+      <i class="fas fa-chevron-down dropdown-arrow"></i>
+    </button>
+    <div class="more-works-dropdown" id="moreWorksDropdown">
+      <div class="dropdown-header">
+        <h4>More CAD-related work from DeCoDE Lab</h4>
+        <button class="close-btn" onclick="toggleMoreWorks()">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="works-list">
+        <a href="https://arxiv.org/pdf/2603.27448" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>GIFT: Bootstrapping Image-to-CAD Program Synthesis via Geometric Feedback</h5>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://arxiv.org/pdf/2605.01171" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>CADFit: Precise Mesh-to-CAD Program Generation with Hybrid Optimization</h5>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+        <a href="https://watermark02.silverchair.com/md-25-1707.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAABIkwggSFBgkqhkiG9w0BBwagggR2MIIEcgIBADCCBGsGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMji52mvoLwnKpqqVIAgEQgIIEPEBeNK0FZfwwWy8spp-bmOG4cas-I7NBNbTSSvcVBO99uiXoqcOipwmZUgIVyN3_haK910n0dLjhQx4_G58WYaxbXx_0GtBdUo3TZ4piBtEg4d9203Cq9VxNifnoKy221WIP-P8UYOqiMoz_2Gzcf7-gMaiMDnHlIl8q4_FJWhEk_viOSdiG24Le9rlkjLALo-c_kRs50slJZXBXQbupYQjzbpAz3Zbl6m_vSKsCFGiQ9sD8vha_HJtautHE38hBr0Ff7-g7kWjTGRhJ-LIfgK0ChUWUMzjZUSed_TS8tQB7oOhiuaMwtUN3U0Pzx0eIU27xkdctzsD4eLvPqylMKEqH_Nzdt_rKcyOipHJBnNSKQDEMhYrxe19-6U2DYg4fBVLbeIq00qEIZSRxLC2sUmQzw6ancHRXoumOp7kCqVMtr4t9s-h2JgA0eHx_YT8u5KFvYLXZ_i_hTUUmMUlAYIw1zNnCVha1Cqz0v-Dg3uW68-K8NNPuor44KYDI4rsLfWoUhQK6-DjXRFK_6tU4iWXuFyv27WVj-MOdN3FPgIe_DfeMxAbOwdVOSbMSOjJCMtefGvmU1EYhK1E2KW90hRt_5kx4Ws8KZCng97DE87jL09Uvj67NZA19bORmw8gvHzFESclQLWy2xYnvBWr7kZMki94RdUO34OgPmYkpMhv7jxrGTPBVHhoh0_AX13CXHdwjxCItGpYkrO0ZJUaStEWnAuM9K0FNYA9Vvevmh0A05gpuIRKDf1olJPtyJOO_TBC7pxdI0A5GpYNw4icZqkG5imNLD7R7oRGQPAIiiunRoe0xKk6KJbS9PamHxLdEtVW5N2iaUjf-1jTFwZlyRn5deQBeErrrUg6e2kKLo4H_udtz6LWnBnQIRKpH8pDBhjf2gGaAoaMCFlhGlMFhNSNoMX77fbrRkvkrgL6gkJihwFTlsxzkjRBTWSyqk83W2QvTJ0ngsbFz-UmBY5DIQGbekYcI2qZ5QTAzWQLxEs7DKVwyluXqCEEeiFma6WTp6J01FfhPt2jPDqc6aPptpXl_3bNisWUeM8rywu6Wf-G2KYP1x5Uj6s9GgtVChRHrAl5_2-x22MUqwd_igRUIREpPNNFjEsnYGib2ooNF3IlUsV2JmrVYe0ouCRajC31A0eWMLTlcDIozVFMimhF_IMPuRMFuEzaEnqH3_e7pEJENnovFuBQcoTiAieXNAMYCxowqMQSLXR4-3HqCvZbY5yv28TJLpzsyZXODZ_buFhec2GslQmpKWiGUxDfqjvOuz3aGukdsvbdXMNrDUvTZ8rzdLhCL19kXQ4uIdc7Im5P8Vpb6Gaxz5wIZp8urPUB27-Tw45econ4pGoNwpxJnDGI2XkogkpP2FyWCSmygQL6N6hgjEktp3Zsf0iH_QA95HVqaHnc3va0IjqcHCBsq20_7K2HRC_8g3BOP00s" class="work-item" target="_blank">
+          <div class="work-info">
+            <h5>CAD-Coder: An Open-Source Vision-Language Model for Computer-Aided Design Code Generation</h5>
+          </div>
+          <i class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <!-- TODO: Replace with your paper title -->
+            <h1 class="title is-1 publication-title">
+              <span class="publication-title-main">CADBench</span>
+              <span class="publication-title-subtitle">A Multimodal Benchmark for AI-Assisted CAD Program Generation</span>
+            </h1>
+            <div class="is-size-5 publication-authors">
+              <!-- TODO: Replace with your paper authors and their personal links -->
+              <span class="author-block">
+                Anna C. Doris,</span>
+              <span class="author-block">
+                Jacob Thomas Sony,</span>
+              <span class="author-block">
+                Ghadi Nehme,</span>
+              <span class="author-block">
+                Era Syla,</span>
+              <span class="author-block">
+                Amin Heyrani Nobari,</span>
+              <span class="author-block">
+                Faez Ahmed
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <!-- TODO: Replace with your institution and conference/journal info -->
+              <span class="author-block"><i>Massachusetts Institute of Technology (MIT)</i></span>
+            </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                      <span class="link-block">
+                        <a href="https://arxiv.org/pdf/2605.10873" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <span class="link-block">
+                    <a href="https://github.com/anniedoris/CADBench" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>GitHub</span>
+                  </a>
+                </span>
+
+                <span class="link-block">
+                  <a href="https://huggingface.co/datasets/DeCoDELab/CADBench" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon hf-icon" aria-hidden="true">
+                    <img
+                      src="https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg"
+                      alt=""
+                      class="hf-logo-icon"
+                    >
+                  </span>
+                  <span>Benchmark</span>
+                </a>
+              </span>
+
+              <span class="link-block">
+                <a href="#Leaderboard"
+                class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                  <i class="fas fa-trophy"></i>
+                </span>
+                <span>Leaderboard</span>
+              </a>
+            </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser image -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <img src="static/images/overview_image.png" alt="CADBench overview" class="teaser-image" loading="eager">
+      <!-- TODO: Replace with your video description -->
+      <h2 class="subtitle teaser-caption">
+        CADBench is built around three diagnostic axes: (1) <b>complexity-stratified and diversity-aware</b> splits, enabling evaluation across object types and difficulty levels; (2) <b>clean and shifted input modalities</b>, enabling robustness analysis under modality shift; and (3) a <b>multidimensional metric suite</b>, capturing complementary aspects of CAD generation performance.
+      </h2>
+    </div>
+  </div>
+</section>
+<!-- End teaser image -->
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container abstract-container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column abstract-column">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified abstract-content">
+          <p>
+            Recovering editable CAD programs from images or 3D observations is central to AI-assisted design, but progress is difficult to measure because existing evaluations are fragmented across datasets, modalities, and metrics. We introduce CADBench, a unified benchmark for multimodal CAD program generation. CADBench contains 18,000 evaluation samples spanning six benchmark families derived from DeepCAD, Fusion 360, ABC, MCB, and Objaverse; five input modalities including clean meshes, noisy meshes, single-view renders, photorealistic renders, and multi-view renders; and six metrics covering geometric fidelity, executability, and program compactness. STEP-based families are stratified by B-rep face count and all families are diversity-sampled to support controlled analysis across complexity and object variation. We benchmark eleven CAD-specialized and general-purpose vision-language systems, generating more than 1.4 million CAD programs. Under idealized inputs, specialized mesh-to-CAD models substantially outperform code-generating VLMs, which remain far from reliable CAD program reconstruction. CADBench further reveals three recurring failure modes: reconstruction quality degrades with geometric complexity, CAD-specialized models can be brittle under modality shift, and model rankings change across metrics. Together, these results position CADBench as a diagnostic testbed for measuring progress in editable 3D reconstruction and multimodal CAD understanding.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Image carousel disabled for now.
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+       <div class="item">
+        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+          First image description.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+          Second image description.
+        </h2>
+      </div>
+      <div class="item">
+        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
+        <h2 class="subtitle has-text-centered">
+         Third image description.
+       </h2>
+     </div>
+     <div class="item">
+      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
+      <h2 class="subtitle has-text-centered">
+        Fourth image description.
+      </h2>
+    </div>
+  </div>
+</div>
+</div>
+</section>
+-->
+
+
+
+
+<!-- Video presentation disabled for now.
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Video Presentation</h2>
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <div class="publication-video">
+            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+
+<!-- Video carousel disabled for now.
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-3">Another Carousel</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-video1">
+          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
+            <source src="static/videos/carousel1.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video2">
+          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
+            <source src="static/videos/carousel2.mp4" type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-video3">
+          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
+            <source src="static/videos/carousel3.mp4" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+-->
+
+
+
+
+
+<!-- Benchmark Overview -->
+<section class="section hero is-light" id="BenchmarkOverview">
+  <div class="container leaderboard-container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column leaderboard-column">
+        <h2 class="title is-3">Benchmark Overview</h2>
+        <div class="content has-text-centered leaderboard-content">
+          <div style="width:85%; margin:0 auto;">
+            <div style="background:linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color:#fff; font-weight:700; font-size:1.1rem; padding:0.5rem 1rem; border-radius:4px; margin-bottom:0.75rem; text-align:center;">Complex &amp; Diverse Families and Splits</div>
+            <img src="static/images/splits.png" alt="Benchmark splits overview" loading="lazy" style="width:100%; display:block;">
+            <p style="text-align:left; margin-top:0.75rem;">CADBench spans six benchmark families derived from DeepCAD, Fusion 360 Gallery, ABC, MCB, and Objaverse. STEP-based families are stratified by B-rep face count, and all families are sampled to promote object diversity, enabling controlled evaluation across geometric complexity levels and benchmark families.</p>
+            <div style="background:linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color:#fff; font-weight:700; font-size:1.1rem; padding:0.5rem 1rem; border-radius:4px; margin-top:1.5rem; margin-bottom:0.75rem; text-align:center;">Clean, Noisy, and Realistic 2D and 3D Modalities</div>
+            <img src="static/images/modalities_image_small.png" alt="CADBench input modalities" loading="lazy" style="width:70%; display:block; margin:0 auto;">
+            <p style="text-align:left; margin-top:0.75rem;">CADBench includes five standardized input modalities spanning both idealized and realistic CAD reconstruction settings: clean meshes, noisy meshes, single-view grayscale renders, multi-view grayscale renders, and photorealistic physically based renders (PBR). Together, these modalities enable controlled evaluation of model robustness to downstream modality shift, testing cases of mesh corruption and rendering variation.</p>
+            <div style="background:linear-gradient(135deg, #f093fb 0%, #f5576c 100%); color:#fff; font-weight:700; font-size:1.1rem; padding:0.5rem 1rem; border-radius:4px; margin-top:1.5rem; margin-bottom:0.75rem; text-align:center;">Metric Suite</div>
+            <p style="text-align:left;">CADBench evaluates generated CAD programs across complementary metrics spanning geometric fidelity, executability, and program compactness.</p>
+            <ul style="text-align:left;">
+              <li><b>IoU</b> measures global volumetric overlap between the generated and target shapes.</li>
+              <li><b>SIoU</b> measures thresholded surface alignment, capturing whether predicted surface points lie near the target surface.</li>
+              <li><b>Chamfer Distance</b> measures local surface error between sampled points on the predicted and target geometries.</li>
+              <li><b>Valid Shape Rate</b> measures the fraction of generated CAD programs that execute successfully and produce valid solids.</li>
+              <li><b>Token Count</b> and <b>Operation Count</b> measure program compactness, capturing how concise the generated CAD programs are.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Leaderboard -->
+<section class="section hero is-light" id="Leaderboard">
+  <div class="container leaderboard-container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column leaderboard-column">
+        <h2 class="title is-3">Overall Leaderboard</h2>
+        <div class="content has-text-centered leaderboard-content">
+          <p class="leaderboard-intro">Aggregate CADBench scores across all benchmark families.</p>
+          <div class="leaderboard-shell">
+            <div class="leaderboard-controls" role="toolbar" aria-label="Leaderboard metric selector">
+              <button class="leaderboard-metric-btn overall-metric-btn is-active" type="button" data-metric="iou" aria-pressed="true">IoU &uarr;</button>
+              <button class="leaderboard-metric-btn overall-metric-btn" type="button" data-metric="siou" aria-pressed="false">SIoU &uarr;</button>
+              <button class="leaderboard-metric-btn overall-metric-btn" type="button" data-metric="vsr" aria-pressed="false">VSR &uarr;</button>
+              <button class="leaderboard-metric-btn overall-metric-btn" type="button" data-metric="cd" aria-pressed="false">CD &darr;</button>
+              <button class="leaderboard-metric-btn overall-metric-btn" type="button" data-metric="token_count" aria-pressed="false">Token Count</button>
+              <button class="leaderboard-metric-btn overall-metric-btn" type="button" data-metric="op_count" aria-pressed="false">Op Count</button>
+            </div>
+
+            <div class="leaderboard-chart-card">
+              <div class="leaderboard-plot" data-role="plot">
+                <div class="leaderboard-y-axis">
+                  <p class="leaderboard-axis-title" data-role="axis-title">IoU</p>
+                  <div class="leaderboard-axis-scale" data-role="axis-scale" aria-hidden="true">
+                    <span>1.000</span>
+                    <span>0.750</span>
+                    <span>0.500</span>
+                    <span>0.250</span>
+                    <span>0.000</span>
+                  </div>
+                </div>
+
+                <div class="leaderboard-plot-main">
+                  <div class="leaderboard-group-labels" data-role="group-labels" aria-hidden="true"></div>
+                  <div class="leaderboard-chart" data-role="chart" aria-live="polite"></div>
+                  <div class="leaderboard-x-axis" data-role="x-axis" aria-hidden="true"></div>
+                  <p class="leaderboard-x-axis-title">Models</p>
+                </div>
+              </div>
+
+              <div class="leaderboard-empty-state" data-role="empty-state" hidden aria-hidden="true" style="display: none;"></div>
+            </div>
+
+            <div class="leaderboard-table-card">
+              <div data-role="leaderboard-table"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End leaderboard -->
+
+
+<!-- Leaderboard by Benchmark Family -->
+<section class="section hero is-light" id="BenchmarkLeaderboard">
+  <div class="container leaderboard-container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column leaderboard-column">
+        <h2 class="title is-3">Leaderboard by Benchmark Family</h2>
+        <div class="content has-text-centered leaderboard-content">
+          <p class="leaderboard-intro">Scores according to each of the six benchmark families.</p>
+          <div class="leaderboard-shell">
+            <div data-role="bench-carousel"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End leaderboard by benchmark family -->
+
+
+<!-- Performance with Increasing Complexity -->
+<section class="section hero is-light" id="ComplexityLeaderboard">
+  <div class="container leaderboard-container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column leaderboard-column">
+        <h2 class="title is-3">Performance with Increasing Complexity</h2>
+        <div class="content has-text-centered leaderboard-content">
+          <p class="leaderboard-intro">Model IoU scores on extrude-only benchmark splits versus increasing complexity, measured by split median face count.</p>
+          <div class="leaderboard-shell">
+            <div id="complexity-root"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Robustness to Modality Shift -->
+<section class="section hero is-light" id="ModalityLeaderboard">
+  <div class="container leaderboard-container">
+    <div class="columns is-centered has-text-centered">
+      <div class="column leaderboard-column">
+        <h2 class="title is-3">Robustness to Modality Shift</h2>
+        <div class="content has-text-centered leaderboard-content">
+          <p class="leaderboard-intro">Model IoU scores across different input modalities. Mesh-to-CAD methods are tested on default meshes and noisy meshes. Image-to-CAD methods are tested on single-view images, multi-view images, and photorealistic images.</p>
+          <div id="modality-leaderboard-root">
+            <div class="leaderboard-shell">
+              <div data-role="modality-carousel"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Poster disabled for now.
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Poster</h2>
+      <iframe src="static/pdfs/sample.pdf" width="100%" height="550"></iframe>
+    </div>
+  </div>
+</section>
+-->
+
+
+
+<!-- Submit to the Leaderboard -->
+<section class="section" id="Submit">
+  <div class="container is-max-desktop content">
+    <h2 class="title">Submit to the Leaderboard</h2>
+    <p>To submit to the leaderboard, please follow the instructions on our GitHub about how to test your model and submit your results.</p>
+  </div>
+</section>
+<!-- End Submit to the Leaderboard -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <div class="bibtex-header">
+        <h2 class="title">BibTeX</h2>
+        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
+          <i class="fas fa-copy"></i>
+          <span class="copy-text">Copy</span>
+        </button>
+      </div>
+      <pre id="bibtex-code"><code>@article{doris2026cadbench,
+  title={CADBench: A Multimodal Benchmark for AI-Assisted CAD Program Generation},
+  author={Doris, Anna C and Sony, Jacob Thomas and Nehme, Ghadi and Syla, Era and Nobari, Amin Heyrani and Ahmed, Faez},
+  journal={arXiv preprint arXiv:2605.10873},
+  year={2026}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>

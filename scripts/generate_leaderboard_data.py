@@ -49,12 +49,12 @@ BENCH_ORDER = [
 ]
 
 BENCH_SLIDES = [
-    {"slide_index": 0, "bench_suffix": "bench0",  "family_name": "CAD-Base"},
-    {"slide_index": 1, "bench_suffix": "bench0F", "family_name": "CAD-Fusion"},
-    {"slide_index": 2, "bench_suffix": "bench1A", "family_name": "CAD-Extrude"},
-    {"slide_index": 3, "bench_suffix": "bench1B", "family_name": "CAD-All-Ops"},
-    {"slide_index": 4, "bench_suffix": "bench2",  "family_name": "CAD-Mechanical"},
-    {"slide_index": 5, "bench_suffix": "bench3",  "family_name": "CAD-Organic"},
+    {"slide_index": 0, "bench_suffix": "benchB", "family_name": "CAD-Base"},
+    {"slide_index": 1, "bench_suffix": "benchF", "family_name": "CAD-Fusion"},
+    {"slide_index": 2, "bench_suffix": "benchE", "family_name": "CAD-Extrude"},
+    {"slide_index": 3, "bench_suffix": "benchA", "family_name": "CAD-All-Ops"},
+    {"slide_index": 4, "bench_suffix": "benchM", "family_name": "CAD-Mechanical"},
+    {"slide_index": 5, "bench_suffix": "benchO", "family_name": "CAD-Organic"},
 ]
 
 
