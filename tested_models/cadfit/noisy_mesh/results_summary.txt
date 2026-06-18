@@ -1,0 +1,50 @@
+aligned_iou_adjusted_median: \heatcell{0.964} & \heatcell{0.953} & \heatcell{0.910} & \heatcell{0.873} & \heatcell{0.952} & \heatcell{0.924} & \heatcell{0.737} & \heatcell{0.715} & \heatcell{0.875} & \heatcell{0.795} & \heatcell{0.516} & \heatcell{0.763} & \heatcell{0.888} & \heatcell{0.631} & \textbf{\heatcell{0.808}}
+aligned_chamfer_distance_success_only_median: \heatcellcd{0.029} & \heatcellcd{0.025} & \heatcellcd{0.032} & \heatcellcd{0.046} & \heatcellcd{0.031} & \heatcellcd{0.032} & \heatcellcd{0.040} & \heatcellcd{0.043} & \heatcellcd{0.038} & \heatcellcd{0.043} & \heatcellcd{0.051} & \heatcellcd{0.052} & \heatcellcd{0.039} & \heatcellcd{0.078} & \textbf{\heatcellcd{0.045}}
+aligned_surface_iou_adjusted_median: \heatcell{0.796} & \heatcell{0.922} & \heatcell{0.785} & \heatcell{0.533} & \heatcell{0.758} & \heatcell{0.746} & \heatcell{0.648} & \heatcell{0.548} & \heatcell{0.716} & \heatcell{0.577} & \heatcell{0.715} & \heatcell{0.496} & \heatcell{0.573} & \heatcell{0.404} & \textbf{\heatcell{0.621}}
+vsr: \heatcell{1.000} & \heatcell{1.000} & \heatcell{1.000} & \heatcell{1.000} & \heatcell{1.000} & \heatcell{1.000} & \heatcell{1.000} & \heatcell{1.000} & \heatcell{1.000} & \heatcell{1.000} & \heatcell{0.979} & \heatcell{0.979} & \heatcell{1.000} & \heatcell{1.000} & \textbf{\heatcell{0.998}}
+token_count_success_only_median: \noheatcell{2113} & \noheatcell{1845} & \noheatcell{2030} & \noheatcell{2329} & \noheatcell{2742} & \noheatcell{2633} & \noheatcell{3770} & \noheatcell{4034} & \noheatcell{2793} & \noheatcell{2882} & \noheatcell{4362} & \noheatcell{4616} & \noheatcell{2475} & \noheatcell{3548} & \textbf{\noheatcell{3012}}
+total_operations_success_only_median: \noheatcell{129} & \noheatcell{113} & \noheatcell{128} & \noheatcell{144} & \noheatcell{174} & \noheatcell{163} & \noheatcell{249} & \noheatcell{279} & \noheatcell{177} & \noheatcell{189} & \noheatcell{307} & \noheatcell{314} & \noheatcell{156} & \noheatcell{226} & \textbf{\noheatcell{195}}
+
+average_aligned_iou_adjusted_median_across_all_benches: 0.808
+average_aligned_chamfer_distance_success_only_median_across_all_benches: 0.045
+average_aligned_surface_iou_adjusted_median_across_all_benches: 0.621
+average_vsr_across_all_benches: 0.998
+average_token_count_success_only_median_across_all_benches: 3012
+average_total_operations_success_only_median_across_all_benches: 195
+
+average_aligned_iou_adjusted_median_for_benchB: 0.930
+average_aligned_iou_adjusted_median_for_benchF: 0.891
+average_aligned_iou_adjusted_median_for_benchE: 0.721
+average_aligned_iou_adjusted_median_for_benchA: 0.784
+average_aligned_iou_adjusted_median_for_benchM: 0.888
+average_aligned_iou_adjusted_median_for_benchO: 0.631
+average_aligned_chamfer_distance_success_only_median_for_benchB: 0.032
+average_aligned_chamfer_distance_success_only_median_for_benchF: 0.033
+average_aligned_chamfer_distance_success_only_median_for_benchE: 0.041
+average_aligned_chamfer_distance_success_only_median_for_benchA: 0.047
+average_aligned_chamfer_distance_success_only_median_for_benchM: 0.039
+average_aligned_chamfer_distance_success_only_median_for_benchO: 0.078
+average_aligned_surface_iou_adjusted_median_for_benchB: 0.757
+average_aligned_surface_iou_adjusted_median_for_benchF: 0.748
+average_aligned_surface_iou_adjusted_median_for_benchE: 0.716
+average_aligned_surface_iou_adjusted_median_for_benchA: 0.526
+average_aligned_surface_iou_adjusted_median_for_benchM: 0.573
+average_aligned_surface_iou_adjusted_median_for_benchO: 0.404
+average_vsr_for_benchB: 1.000
+average_vsr_for_benchF: 1.000
+average_vsr_for_benchE: 0.993
+average_vsr_for_benchA: 0.993
+average_vsr_for_benchM: 1.000
+average_vsr_for_benchO: 1.000
+average_token_count_success_only_median_for_benchB: 2549
+average_token_count_success_only_median_for_benchF: 2453
+average_token_count_success_only_median_for_benchE: 3387
+average_token_count_success_only_median_for_benchA: 3660
+average_token_count_success_only_median_for_benchM: 2475
+average_token_count_success_only_median_for_benchO: 3548
+average_total_operations_success_only_median_for_benchB: 160
+average_total_operations_success_only_median_for_benchF: 155
+average_total_operations_success_only_median_for_benchE: 228
+average_total_operations_success_only_median_for_benchA: 246
+average_total_operations_success_only_median_for_benchM: 156
+average_total_operations_success_only_median_for_benchO: 226

@@ -1,0 +1,386 @@
+{
+    "easy": {
+        "Aligned IoU": {
+            "success_only": {
+                "mean": 0.8168648983566398,
+                "median": 0.9101289359738187,
+                "std": 0.19387204828541965,
+                "count": 47
+            },
+            "adjusted": {
+                "mean": 0.8168648983566398,
+                "median": 0.9101289359738187,
+                "std": 0.19387204828541965,
+                "count": 47
+            }
+        },
+        "Aligned Chamfer Distance": {
+            "success_only": {
+                "mean": 0.051762257700807376,
+                "median": 0.031548678735459065,
+                "std": 0.06347903494865804,
+                "count": 47
+            },
+            "adjusted": {
+                "mean": 0.051762257700807376,
+                "median": 0.031548678735459065,
+                "std": 0.06347903494865804,
+                "count": 47
+            }
+        },
+        "Aligned Surface IoU": {
+            "success_only": {
+                "mean": 0.6902393617021276,
+                "median": 0.785,
+                "std": 0.3073688585567076,
+                "count": 47
+            },
+            "adjusted": {
+                "mean": 0.6902393617021276,
+                "median": 0.785,
+                "std": 0.3073688585567076,
+                "count": 47
+            }
+        },
+        "Naive IoU": {
+            "success_only": {
+                "mean": 0.8629006942680676,
+                "median": 0.9193363766380608,
+                "std": 0.13266743264655254,
+                "count": 47
+            },
+            "adjusted": {
+                "mean": 0.8629006942680676,
+                "median": 0.9193363766380608,
+                "std": 0.13266743264655254,
+                "count": 47
+            }
+        },
+        "Naive Chamfer Distance": {
+            "success_only": {
+                "mean": 0.04233693632982694,
+                "median": 0.028697773696081043,
+                "std": 0.04776016817949755,
+                "count": 47
+            },
+            "adjusted": {
+                "mean": 0.04233693632982694,
+                "median": 0.028697773696081043,
+                "std": 0.04776016817949755,
+                "count": 47
+            }
+        },
+        "Naive Surface IoU": {
+            "success_only": {
+                "mean": 0.74975,
+                "median": 0.8228,
+                "std": 0.24825989734637938,
+                "count": 47
+            },
+            "adjusted": {
+                "mean": 0.74975,
+                "median": 0.8228,
+                "std": 0.24825989734637938,
+                "count": 47
+            }
+        },
+        "token_count": {
+            "success_only": {
+                "mean": 2376.2127659574467,
+                "median": 2030.0,
+                "std": 1384.51980274076,
+                "count": 47
+            },
+            "adjusted": {
+                "mean": 2376.2127659574467,
+                "median": 2030.0,
+                "std": 1384.51980274076,
+                "count": 47
+            }
+        },
+        "line_count": {
+            "success_only": {
+                "mean": 156.2340425531915,
+                "median": 135.0,
+                "std": 89.67240202802873,
+                "count": 47
+            },
+            "adjusted": {
+                "mean": 156.2340425531915,
+                "median": 135.0,
+                "std": 89.67240202802873,
+                "count": 47
+            }
+        },
+        "total_operations": {
+            "success_only": {
+                "mean": 151.38297872340425,
+                "median": 128.0,
+                "std": 89.81346688783694,
+                "count": 47
+            },
+            "adjusted": {
+                "mean": 151.38297872340425,
+                "median": 128.0,
+                "std": 89.81346688783694,
+                "count": 47
+            }
+        }
+    },
+    "medium": {
+        "Aligned IoU": {
+            "success_only": {
+                "mean": 0.6696375129923439,
+                "median": 0.7371641123828407,
+                "std": 0.273221145845143,
+                "count": 48
+            },
+            "adjusted": {
+                "mean": 0.6696375129923439,
+                "median": 0.7371641123828407,
+                "std": 0.273221145845143,
+                "count": 48
+            }
+        },
+        "Aligned Chamfer Distance": {
+            "success_only": {
+                "mean": 0.0594062053865178,
+                "median": 0.03977445089455655,
+                "std": 0.051448308137325885,
+                "count": 48
+            },
+            "adjusted": {
+                "mean": 0.0594062053865178,
+                "median": 0.03977445089455655,
+                "std": 0.051448308137325885,
+                "count": 48
+            }
+        },
+        "Aligned Surface IoU": {
+            "success_only": {
+                "mean": 0.6174041666666666,
+                "median": 0.64815,
+                "std": 0.29274893550205894,
+                "count": 48
+            },
+            "adjusted": {
+                "mean": 0.6174041666666666,
+                "median": 0.64815,
+                "std": 0.29274893550205894,
+                "count": 48
+            }
+        },
+        "Naive IoU": {
+            "success_only": {
+                "mean": 0.7320480091377147,
+                "median": 0.8225426184233966,
+                "std": 0.24793314270263356,
+                "count": 48
+            },
+            "adjusted": {
+                "mean": 0.7320480091377147,
+                "median": 0.8225426184233966,
+                "std": 0.24793314270263356,
+                "count": 48
+            }
+        },
+        "Naive Chamfer Distance": {
+            "success_only": {
+                "mean": 0.05288370413730564,
+                "median": 0.03410033146414231,
+                "std": 0.04990924112830555,
+                "count": 48
+            },
+            "adjusted": {
+                "mean": 0.05288370413730564,
+                "median": 0.03410033146414231,
+                "std": 0.04990924112830555,
+                "count": 48
+            }
+        },
+        "Naive Surface IoU": {
+            "success_only": {
+                "mean": 0.6554364583333333,
+                "median": 0.71935,
+                "std": 0.28123506820686034,
+                "count": 48
+            },
+            "adjusted": {
+                "mean": 0.6554364583333333,
+                "median": 0.71935,
+                "std": 0.28123506820686034,
+                "count": 48
+            }
+        },
+        "token_count": {
+            "success_only": {
+                "mean": 5112.5625,
+                "median": 3770.0,
+                "std": 4120.9231970531355,
+                "count": 48
+            },
+            "adjusted": {
+                "mean": 5112.5625,
+                "median": 3770.0,
+                "std": 4120.9231970531355,
+                "count": 48
+            }
+        },
+        "line_count": {
+            "success_only": {
+                "mean": 353.1458333333333,
+                "median": 255.0,
+                "std": 277.7702241585264,
+                "count": 48
+            },
+            "adjusted": {
+                "mean": 353.1458333333333,
+                "median": 255.0,
+                "std": 277.7702241585264,
+                "count": 48
+            }
+        },
+        "total_operations": {
+            "success_only": {
+                "mean": 349.7708333333333,
+                "median": 249.0,
+                "std": 280.4805329144459,
+                "count": 48
+            },
+            "adjusted": {
+                "mean": 349.7708333333333,
+                "median": 249.0,
+                "std": 280.4805329144459,
+                "count": 48
+            }
+        }
+    },
+    "hard": {
+        "Aligned IoU": {
+            "success_only": {
+                "mean": 0.5635430858691697,
+                "median": 0.5499726483657897,
+                "std": 0.31803748175743013,
+                "count": 46
+            },
+            "adjusted": {
+                "mean": 0.5515528074464213,
+                "median": 0.5164595809808205,
+                "std": 0.3251246103000024,
+                "count": 47
+            }
+        },
+        "Aligned Chamfer Distance": {
+            "success_only": {
+                "mean": 0.07731059650336332,
+                "median": 0.0507445458073969,
+                "std": 0.08576737034521033,
+                "count": 46
+            },
+            "adjusted": {
+                "mean": 0.07566569019478112,
+                "median": 0.04959564658283061,
+                "std": 0.08557626161103807,
+                "count": 47
+            }
+        },
+        "Aligned Surface IoU": {
+            "success_only": {
+                "mean": 0.6404326086956522,
+                "median": 0.717975,
+                "std": 0.2664711854794459,
+                "count": 46
+            },
+            "adjusted": {
+                "mean": 0.6268063829787234,
+                "median": 0.7152,
+                "std": 0.2796246481829085,
+                "count": 47
+            }
+        },
+        "Naive IoU": {
+            "success_only": {
+                "mean": 0.6163285614487648,
+                "median": 0.6945797355400466,
+                "std": 0.2998835001557441,
+                "count": 46
+            },
+            "adjusted": {
+                "mean": 0.6032151878009187,
+                "median": 0.677859349679146,
+                "std": 0.3099310534792935,
+                "count": 47
+            }
+        },
+        "Naive Chamfer Distance": {
+            "success_only": {
+                "mean": 0.07388963829830568,
+                "median": 0.04316853607653044,
+                "std": 0.08015251435002553,
+                "count": 46
+            },
+            "adjusted": {
+                "mean": 0.07231751833451194,
+                "median": 0.0422807090332784,
+                "std": 0.0800057967085708,
+                "count": 47
+            }
+        },
+        "Naive Surface IoU": {
+            "success_only": {
+                "mean": 0.6597456521739131,
+                "median": 0.733375,
+                "std": 0.2590035108784107,
+                "count": 46
+            },
+            "adjusted": {
+                "mean": 0.6457085106382979,
+                "median": 0.7303,
+                "std": 0.273652041103127,
+                "count": 47
+            }
+        },
+        "token_count": {
+            "success_only": {
+                "mean": 4685.173913043478,
+                "median": 4362.0,
+                "std": 3193.2476697232923,
+                "count": 46
+            },
+            "adjusted": {
+                "mean": 4585.489361702128,
+                "median": 4347.0,
+                "std": 3231.439293487201,
+                "count": 47
+            }
+        },
+        "line_count": {
+            "success_only": {
+                "mean": 336.9782608695652,
+                "median": 314.0,
+                "std": 237.93094134694115,
+                "count": 46
+            },
+            "adjusted": {
+                "mean": 329.8085106382979,
+                "median": 313.0,
+                "std": 240.40903895850292,
+                "count": 47
+            }
+        },
+        "total_operations": {
+            "success_only": {
+                "mean": 332.54347826086956,
+                "median": 307.0,
+                "std": 239.37722035145364,
+                "count": 46
+            },
+            "adjusted": {
+                "mean": 325.468085106383,
+                "median": 306.0,
+                "std": 241.6788068872142,
+                "count": 47
+            }
+        }
+    }
+}

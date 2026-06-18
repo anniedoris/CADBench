@@ -1,0 +1,50 @@
+aligned_iou_adjusted_median: \heatcell[0.001]{0.789} & \heatcell[0.003]{0.680} & \heatcell[0.002]{0.634} & \heatcell[0.002]{0.618} & \heatcell[0.000]{0.621} & \heatcell[0.001]{0.559} & \heatcell[0.001]{0.348} & \heatcell[0.000]{0.349} & \heatcell[0.000]{0.550} & \heatcell[0.000]{0.372} & \heatcell[0.002]{0.423} & \heatcell[0.001]{0.324} & \heatcell[0.000]{0.631} & \heatcell[0.000]{0.344} & \textbf{\heatcell{0.511}}
+aligned_chamfer_distance_success_only_median: \heatcellcd[0.000]{0.043} & \heatcellcd[0.000]{0.051} & \heatcellcd[0.000]{0.055} & \heatcellcd[0.000]{0.067} & \heatcellcd[0.000]{0.053} & \heatcellcd[0.000]{0.063} & \heatcellcd[0.000]{0.074} & \heatcellcd[0.000]{0.095} & \heatcellcd[0.000]{0.072} & \heatcellcd[0.000]{0.085} & \heatcellcd[0.000]{0.058} & \heatcellcd[0.000]{0.089} & \heatcellcd[0.000]{0.066} & \heatcellcd[0.000]{0.120} & \textbf{\heatcellcd{0.076}}
+aligned_surface_iou_adjusted_median: \heatcell[0.002]{0.558} & \heatcell[0.002]{0.500} & \heatcell[0.001]{0.477} & \heatcell[0.002]{0.341} & \heatcell[0.001]{0.471} & \heatcell[0.002]{0.415} & \heatcell[0.002]{0.343} & \heatcell[0.001]{0.221} & \heatcell[0.002]{0.316} & \heatcell[0.002]{0.268} & \heatcell[0.003]{0.446} & \heatcell[0.001]{0.247} & \heatcell[0.001]{0.363} & \heatcell[0.001]{0.150} & \textbf{\heatcell{0.341}}
+vsr: \heatcell[0.001]{0.883} & \heatcell[0.002]{0.878} & \heatcell[0.001]{0.871} & \heatcell[0.003]{0.887} & \heatcell[0.002]{0.869} & \heatcell[0.001]{0.882} & \heatcell[0.001]{0.823} & \heatcell[0.000]{0.881} & \heatcell[0.001]{0.865} & \heatcell[0.002]{0.842} & \heatcell[0.002]{0.812} & \heatcell[0.002]{0.850} & \heatcell[0.001]{0.905} & \heatcell[0.001]{0.858} & \textbf{\heatcell{0.868}}
+token_count_success_only_median: \noheatcell[0]{248} & \noheatcell[1]{242} & \noheatcell[0]{299} & \noheatcell[1]{304} & \noheatcell[0]{307} & \noheatcell[0]{308} & \noheatcell[0]{395} & \noheatcell[0]{397} & \noheatcell[0]{346} & \noheatcell[0]{393} & \noheatcell[0]{350} & \noheatcell[0]{405} & \noheatcell[0]{230} & \noheatcell[0]{356} & \textbf{\noheatcell{320}}
+total_operations_success_only_median: \noheatcell[0]{26} & \noheatcell[0]{25} & \noheatcell[0]{31} & \noheatcell[0]{32} & \noheatcell[0]{32} & \noheatcell[0]{32} & \noheatcell[0]{42} & \noheatcell[0]{41} & \noheatcell[0]{36} & \noheatcell[0]{41} & \noheatcell[0]{36} & \noheatcell[0]{42} & \noheatcell[0]{25} & \noheatcell[0]{38} & \textbf{\noheatcell{34}}
+
+average_aligned_iou_adjusted_median_across_all_benches: 0.511
+average_aligned_chamfer_distance_success_only_median_across_all_benches: 0.076
+average_aligned_surface_iou_adjusted_median_across_all_benches: 0.341
+average_vsr_across_all_benches: 0.868
+average_token_count_success_only_median_across_all_benches: 320
+average_total_operations_success_only_median_across_all_benches: 34
+
+average_aligned_iou_adjusted_median_for_benchB: 0.653
+average_aligned_iou_adjusted_median_for_benchF: 0.537
+average_aligned_iou_adjusted_median_for_benchE: 0.469
+average_aligned_iou_adjusted_median_for_benchA: 0.430
+average_aligned_iou_adjusted_median_for_benchM: 0.631
+average_aligned_iou_adjusted_median_for_benchO: 0.344
+average_aligned_chamfer_distance_success_only_median_for_benchB: 0.056
+average_aligned_chamfer_distance_success_only_median_for_benchF: 0.066
+average_aligned_chamfer_distance_success_only_median_for_benchE: 0.062
+average_aligned_chamfer_distance_success_only_median_for_benchA: 0.084
+average_aligned_chamfer_distance_success_only_median_for_benchM: 0.066
+average_aligned_chamfer_distance_success_only_median_for_benchO: 0.120
+average_aligned_surface_iou_adjusted_median_for_benchB: 0.448
+average_aligned_surface_iou_adjusted_median_for_benchF: 0.394
+average_aligned_surface_iou_adjusted_median_for_benchE: 0.422
+average_aligned_surface_iou_adjusted_median_for_benchA: 0.270
+average_aligned_surface_iou_adjusted_median_for_benchM: 0.363
+average_aligned_surface_iou_adjusted_median_for_benchO: 0.150
+average_vsr_for_benchB: 0.872
+average_vsr_for_benchF: 0.867
+average_vsr_for_benchE: 0.835
+average_vsr_for_benchA: 0.873
+average_vsr_for_benchM: 0.905
+average_vsr_for_benchO: 0.858
+average_token_count_success_only_median_for_benchB: 300
+average_token_count_success_only_median_for_benchF: 314
+average_token_count_success_only_median_for_benchE: 348
+average_token_count_success_only_median_for_benchA: 368
+average_token_count_success_only_median_for_benchM: 230
+average_token_count_success_only_median_for_benchO: 356
+average_total_operations_success_only_median_for_benchB: 31
+average_total_operations_success_only_median_for_benchF: 33
+average_total_operations_success_only_median_for_benchE: 36
+average_total_operations_success_only_median_for_benchA: 38
+average_total_operations_success_only_median_for_benchM: 25
+average_total_operations_success_only_median_for_benchO: 38
